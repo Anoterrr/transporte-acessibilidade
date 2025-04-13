@@ -1,0 +1,42 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ambiente virtual
+.venv/
+env/
+venv/
+
+# Poetry
+.poetry/
+poetry.lock
+
+# pyenv
+.python-version
+
+# Streamlit
+.streamlit/
+
+# Arquivos de banco de dados
+*.sqlite
+*.db
+
+# Configurações do IDE
+.vscode/
+.idea/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.swp
+*.swo
+
+# Arquivos de cache
+__pycache__/
+
+# Arquivos de saída
+*.csv
+*.xlsx
+*.json

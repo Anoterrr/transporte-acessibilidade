@@ -1,0 +1,22 @@
+[project]
+name = "transporte-acessibilidade"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Anoter",email = "prosidegcr@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "geopandas (>=1.0.1,<2.0.0)",
+    "folium (>=0.19.5,<0.20.0)",
+    "streamlit (>=1.44.1,<2.0.0)",
+    "psycopg2-binary (>=2.9.10,<3.0.0)",
+    "osmnx (>=2.0.2,<3.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
